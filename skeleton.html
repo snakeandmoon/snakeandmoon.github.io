@@ -5,69 +5,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-<title><?php echo isset($page_title) ? $page_title : 'Business Name · Default Title'; ?></title>
+<title>Business Name · Default Title</title>
 
-<meta name="description" content="<?php echo isset($page_description) ? $page_description : 'A clean, up‑to‑date website with a modern navigation bar.'; ?>" />
-
-<!-- Open Graph / Social Media -->
-<meta property="og:title" content="<?php echo isset($og_title) ? $og_title : (isset($page_title) ? $page_title : 'Business Name'); ?>" />
-<meta property="og:description" content="<?php echo isset($og_description) ? $og_description : (isset($page_description) ? $page_description : 'A clean, up‑to‑date website with a modern navigation bar.'); ?>" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="<?php echo isset($og_url) ? $og_url : 'https://example.com'; ?>" />
-<meta property="og:image" content="<?php echo isset($og_image) ? $og_image : 'https://example.com/og-image.jpg'; ?>" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="<?php echo isset($twitter_title) ? $twitter_title : (isset($page_title) ? $page_title : 'Business Name'); ?>" />
-<meta name="twitter:description" content="<?php echo isset($twitter_description) ? $twitter_description : (isset($page_description) ? $page_description : 'A clean, up‑to‑date website with a modern navigation bar.'); ?>" />
-<meta name="twitter:image" content="<?php echo isset($twitter_image) ? $twitter_image : (isset($og_image) ? $og_image : 'https://example.com/og-image.jpg'); ?>" />
-
-<!-- Theme Color -->
-<meta name="theme-color" content="#1a1a1a" />
-
-<!-- Favicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="assets/graphics/avatar.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="assets/graphics/avatar.png" />
-
-<!-- Canonical URL -->
-<link rel="canonical" href="<?php echo isset($canonical_url) ? $canonical_url : 'https://example.com'; ?>" />
-
-<!-- Robots -->
-<meta name="robots" content="<?php echo isset($robots) ? $robots : 'index, follow'; ?>" />
-
-<!-- Viewport / Responsive (already set above) -->
-
-<!-- Business Schema.org JSON-LD -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "<?php echo isset($business_name) ? $business_name : 'Your Business Name'; ?>",
-    "description": "<?php echo isset($business_description) ? $business_description : 'A clean, up‑to‑date website with a modern navigation bar.'; ?>",
-    "url": "<?php echo isset($business_url) ? $business_url : 'https://example.com'; ?>",
-    "logo": "<?php echo isset($business_logo) ? $business_logo : 'https://example.com/logo.png'; ?>",
-    "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "<?php echo isset($business_street) ? $business_street : '123 Main Street'; ?>",
-        "addressLocality": "<?php echo isset($business_city) ? $business_city : 'Springfield'; ?>",
-        "addressRegion": "<?php echo isset($business_region) ? $business_region : 'IL'; ?>",
-        "postalCode": "<?php echo isset($business_postal) ? $business_postal : '62701'; ?>",
-        "addressCountry": "<?php echo isset($business_country) ? $business_country : 'US'; ?>"
-    },
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "<?php echo isset($business_phone) ? $business_phone : '+1-800-555-1234'; ?>",
-        "contactType": "customer service",
-        "availableLanguage": ["English"]
-    },
-    "openingHours": "<?php echo isset($business_hours) ? $business_hours : 'Mo-Fr 09:00-17:00'; ?>",
-    "sameAs": [
-        <?php echo isset($social_links) ? implode(', ', array_map(function($link) { return '"' . $link . '"'; }, $social_links)) : '"https://facebook.com/yourpage", "https://twitter.com/yourpage"'; ?>
-    ]
-}
-</script>
+<meta name="description" content="A clean, up‑to‑date website with a modern navigation bar "/>
 
 <!-- CSS Stylesheets -->
 <link rel="stylesheet" href="assets/styles/navbar.css" />
@@ -138,7 +78,7 @@
         <div id="contact"><h2>Contact</h2></div>
         <p>The brand name, domain name, social media handles, email address, phone number, and physical address of a business is extremely important for both branding and digital marketing. These elements, as well as the business registration and structuring, should be established at the beginning of the brand creation process. It is important for these elements to remain constant over time.</p>
 
-        <p>I am currently in the process of creating my brand package for demarca.digital. The branding process includes all naming elements. As these steps are completed, the brand details will be published here first. Once the completing namespace is established, it will be pubished on internet platforms such as GMB.</p>
+        <p>I am currently in the process of creating my brand package for snake and moon. The branding process includes all naming elements. As these steps are completed, the brand details will be published here first. Once the completing namespace is established, it will be pubished on internet platforms such as GMB.</p>
 
         </div>
     </div>
