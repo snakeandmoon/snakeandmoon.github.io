@@ -1,0 +1,30 @@
+/* Mobile: Full-width footer, columns stack vertically */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 0px 20px;
+    text-align: center; /* Centers text inside each box */
+}
+
+/* Desktop: Columns switch to a centered, equal-width horizontal row */
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        margin: 0 auto;    /* Centers the entire footer container on the page */
+        justify-content: center; /* Centers items horizontally if they don't fill space */
+        align-items: center;     /* Centers items vertically if they have different heights */
+    }
+
+    .box {
+        flex: 1; /* Forces all 3 columns to be exactly equal width */
+        max-width:600px;
+        min-width:300px;
+    }
+}

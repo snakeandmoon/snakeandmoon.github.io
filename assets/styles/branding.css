@@ -1,0 +1,41 @@
+body {
+    background:#666666;
+}
+
+/* Default (mobile-first approach) */
+.main {
+    min-height: 100vh;
+    background: #333333;
+    color:#fafafa;
+    width:100%;
+    margin:0 auto;
+}
+
+/* Laptops and computers */
+@media (min-width: 1024px) and (max-width: 1919px) {
+    .main {
+        max-width: 60%;
+    }
+}
+
+/* TVs and large displays */
+@media (min-width: 1920px) {
+    .main {
+        max-width: 60%;
+    }
+}
+
+.hero {
+    width:100%;
+    display:block;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.footer {
+    background:#000000;
+    padding: 20px;
+    color:#fafafa;
+}
