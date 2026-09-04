@@ -1,0 +1,138 @@
+Frontier strategy for the post-Western digital economy.
+Research. Foresight. Systems Architecture.
+
+Global finance is fragmenting. BRICS Pay, the New Development Bank, and alternative payment rails are reshaping capital flows. Post-quantum encryption is racing against quantum decryption. Large computation models are hitting energy walls. And the next billion users are coming online through infrastructure that barely exists.
+
+Snake and Moon maps these collisions. We produce the research that governments, funds, and multilateral institutions need to navigate the post-Western order.
+
+RESEARCH DOMAINS
+1. GLOBAL FINANCE & PAYMENT SYSTEMS
+The dollar-dominated financial order is fracturing. BRICS Pay, digital currencies, bilateral swap lines, and development banks are creating parallel infrastructure.
+
+We analyze:
+
+BRICS Pay architecture and adoption pathways.
+
+The New Development Bank's role in African infrastructure finance.
+
+Payment system fragmentation and regulatory arbitrage.
+
+Sovereign digital currencies and their geopolitical implications.
+
+The informal economy as a parallel financial system.
+
+2. POST-QUANTUM ENCRYPTION
+Quantum decryption will render current encryption obsolete. The transition to post-quantum cryptography is one of the most critical infrastructure challenges of the next decade—and emerging markets are the least prepared.
+
+We study:
+
+Post-quantum cryptographic standards and implementation timelines.
+
+Energy-efficient encryption for low-resource environments.
+
+National and multilateral readiness assessments.
+
+Transition roadmaps for financial and government systems.
+
+3. LARGE COMPUTATION MODELS
+AI and large computation models require massive energy and infrastructure. Most of the world cannot support them. We research architectures that work within constraints.
+
+Our work includes:
+
+Computation models optimized for decentralized, low-bandwidth environments.
+
+Energy-efficient AI deployment in emerging markets.
+
+The geopolitical implications of compute concentration.
+
+Alternative architectures that bypass hyperscale dependence.
+
+4. EMERGING TECH & INFRASTRUCTURE
+Technology adoption in the Global South doesn't follow Silicon Valley patterns. We document what actually works.
+
+We examine:
+
+Low-energy computing solutions for power-scarce environments.
+
+The Meta monopoly as infrastructure in LATAM and Africa.
+
+Digital identity and trust systems in cash-based economies.
+
+Leapfrog technologies and their unintended consequences.
+
+OUR METHOD
+Research. Publish. Advise.
+
+We produce primary research, policy briefs, and strategic intelligence for institutions that need to understand the post-Western world.
+
+What We Produce	For Whom
+White papers (20-50 pages)	Multilateral donors, government agencies
+Policy briefs (5-10 pages)	Policymakers, regulators
+Strategic intelligence memos	Funds, investors, institutional decision-makers
+Scenario planning exercises	Sovereign wealth funds, central banks
+Technical assessments	Infrastructure planners, encryption teams
+WHO WE SERVE
+Audience	What We Deliver
+Multilateral donors & development banks (IDRC, IDB, World Bank, UNDP)	Field-grounded research, policy recommendations, implementation data
+Government agencies (BRICS+ nations, LATAM, Africa)	Strategic foresight, readiness assessments, regulatory guidance
+Sovereign wealth funds & institutional investors	Geopolitical risk analysis, market intelligence, scenario planning
+Central banks & financial regulators	Payment system analysis, encryption transition roadmaps
+Research institutions & academic partners	Primary data, co-publishing, peer collaboration
+WHY SNAKE AND MOON
+Grounded in the field. We operate from Guatemala, embedded in the environment we study. We don't theorize from a distance.
+
+Interdisciplinary. We connect finance, encryption, computation, and infrastructure—domains that are usually studied in isolation.
+
+Non-partisan. We map what is, not what we wish would be. We serve clarity, not ideology.
+
+Systems builders. We don't just produce knowledge. We produce replicable frameworks that institutions can deploy.
+
+We shed old assumptions (the Snake) to illuminate new pathways (the Moon).
+
+SELECTED RESEARCH AREAS
+BRICS Pay and the fragmentation of global financial infrastructure.
+
+Post-quantum encryption readiness in energy-scarce environments.
+
+Large computation models for decentralized, low-bandwidth deployment.
+
+Low-energy computing as a strategic imperative for emerging markets.
+
+Alternative capital flows and the changing role of development banks.
+
+The informal economy as a parallel financial system.
+
+Regulatory frameworks for digital assets in the Global South.
+
+Quantum decryption timelines and national security implications.
+
+ENGAGE WITH US
+Mode	What It Means
+Commissioned Research	You define the problem. We deliver a white paper, policy brief, or technical assessment.
+Strategic Advisory	Ongoing retainer-based intelligence for funds, governments, or institutions.
+Research Partnerships	Co-publishing, data sharing, joint proposals with academic or institutional partners.
+CURRENT GRANT PROPOSALS
+(To be populated as applications are submitted)
+
+Snake and Moon is actively seeking research funding for projects on:
+
+BRICS Pay adoption pathways in LATAM and Africa.
+
+Post-quantum encryption readiness in emerging markets.
+
+Energy-efficient large computation models for decentralized deployment.
+
+Payment system fragmentation and regulatory responses.
+
+Digital formalization of informal financial flows.
+
+For a full capability statement, please request via the link below.
+
+CONTACT
+Snake and Moon
+Guatemala
+
+For grant inquiries, commissioning requests, or research partnerships:
+
+[ REQUEST CAPABILITY STATEMENT ]
+[ BOOK A DISCOVERY CALL ]
