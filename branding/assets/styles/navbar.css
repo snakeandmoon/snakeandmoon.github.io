@@ -1,0 +1,261 @@
+/* ============================================================
+   navbar.css – Clean navbar with <details> hamburger
+   ============================================================ */
+
+/* ---------- RESET ---------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 0.6rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.navbar-brand .logo-icon {
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.logo {
+    width: 48px;
+    height: auto;
+    padding-top:10px;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa;
+}
+
+/* ---------- DESKTOP MENU ---------- */
+.nav-links {
+    display: none;
+    list-style: none;
+    gap: 1.75rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #e9ecef;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 450;
+    padding: 0.3rem 0.1rem;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.25s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* ---------- MOBILE HAMBURGER ---------- */
+.hamburger-wrapper {
+    display: block;
+    position: relative;
+}
+
+.hamburger-wrapper summary {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px 2px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.hamburger-wrapper summary:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* Remove default summary marker in all browsers */
+.hamburger-wrapper summary::-webkit-details-marker {
+    display: none;
+}
+.hamburger-wrapper summary::marker {
+    display: none;
+}
+
+.hamburger span {
+    display: block;
+    width: 24px;
+    height: 2.5px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+/* Animate hamburger to X when open */
+.hamburger-wrapper[open] .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    width: 26px;
+}
+
+.hamburger-wrapper[open] .hamburger span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.hamburger-wrapper[open] .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    width: 26px;
+}
+
+/* ---------- MOBILE MENU OVERLAY ---------- */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.92);
+    backdrop-filter: blur(8px);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mobile-menu a {
+    font-size: 1.5rem;
+    font-weight: 450;
+    color: #e9ecef;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+    position: relative;
+}
+
+.mobile-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.25s ease;
+}
+
+.mobile-menu a:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+}
+
+.mobile-menu a:hover::after {
+    width: 60%;
+}
+
+/* Close button - we use a pseudo element or add a close link */
+.hamburger-wrapper[open] .mobile-menu::after {
+    content: '✕ Close';
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #adb5bd;
+    font-size: 0.85rem;
+    padding: 0.5rem 1.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.hamburger-wrapper[open] .mobile-menu:hover::after {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ---------- DESKTOP BREAKPOINT ---------- */
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .hamburger-wrapper {
+        display: none;
+    }
+
+    .navbar {
+        padding: 0.6rem 2.5rem;
+        min-height: 60px;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+/* ---------- DARK MODE SUPPORT ---------- */
+@media (prefers-color-scheme: dark) {
+    .mobile-menu {
+        background: rgba(0, 0, 0, 0.95);
+    }
+}
