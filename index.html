@@ -1,10 +1,97 @@
-<!DOCTYPE html>
-<html>
+<<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+<title>Business Name · Default Title</title>
+
+<meta name="description" content="A clean, up‑to‑date website with a modern navigation bar "/>
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="assets/styles/navbar.css" />
+<link rel="stylesheet" href="assets/styles/branding.css" />
+<link rel="stylesheet" href="assets/styles/typography.css" />
+<link rel="stylesheet" href="assets/styles/footer.css" />
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>This site is under construction.</p>
+<header class="navbar" role="banner">
+
+<!-- Logo / Business Name -->
+<a href="/" class="navbar-brand">
+<span class="logo-icon"><img class='logo' src='assets/graphics/snake.jpg' /></span>
+<span>snake and moon</span>
+</a>
+
+<!-- Desktop Navigation -->
+<ul class="nav-links">
+<li><a href="/#home">Home</a></li>
+<li><a href="/#services">Services</a></li>
+<li><a href="/#reviews">Reviews</a></li>
+<li><a href="/#faq">FAQ</a></li>
+<li><a href="/#blog">Blog</a></li>
+<li><a href="/#blog">Contact Us</a></li>
+</ul>
+
+<!-- Mobile Hamburger using <details> -->
+<details class="hamburger-wrapper">
+<summary class="hamburger" aria-label="Toggle navigation menu">
+<span></span>
+<span></span>
+<span></span>
+</summary>
+
+<!-- Mobile Menu (appears when details is open) -->
+<div class="mobile-menu">
+<nav>
+<a href="/#home">Home</a>
+<a href="/#about">About</a>
+<a href="/#services">Services</a>
+<a href="/#contact">Contact</a>
+</nav>
+</div>
+</details>
+
+</header>
+
+    <!-- Rest of your page content -->
+    <div class="main">
+    <img class="hero" src="assets/graphics/fbcover.png" />
+        <div class="content">
+        <div id="about"><h2>About</h2></div>
+        <p>In the nature of the "build in public" mantra, I'm publishing the simplest version of the site and then documenting the progression as it happens. However, I am not just building a website. This is also the construction of a manifesto, a brand, and a replicable system.</p>
+
+        <p>I am an artist and a programmer. I began my career as a digital marketer as a child of the 90s. Forty years later, demarca.digital is my masterpiece.</p>
+
+        <div id="services"><h2>Services</h2></div>
+
+        <h3>Branding</h3>
+
+        <p>I produce complete brand packages, and I also offer a la carte branding services. Naming, color pallete, fonts, logos, photography and video, social media templates, print assets, brand messaging and voice, audience profiles and competition analysis. </p>
+
+        <h3>Digital Marketing</h3>
+
+        <p>I create complete digital marketing systems, and I also offer a la carte services. Web design, social media management, local SEO, review management, email marketing, SMS marketing, Whatsapp marketing, Google My Business, digital payment systems.</p>
+
+
+        <div id="contact"><h2>Contact</h2></div>
+        <p>The brand name, domain name, social media handles, email address, phone number, and physical address of a business is extremely important for both branding and digital marketing. These elements, as well as the business registration and structuring, should be established at the beginning of the brand creation process. It is important for these elements to remain constant over time.</p>
+
+        <p>I am currently in the process of creating my brand package for snake and moon. The branding process includes all naming elements. As these steps are completed, the brand details will be published here first. Once the completing namespace is established, it will be pubished on internet platforms such as GMB.</p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="box">
+        <h3>contact info</h3>
+        Charlotte, North Carolina
+        <br />+1 704 486 8464
+        <br />hello@snakeandmoon.com
+        </div>
+        <div class="box">social media</div>
+        <div class="box">submenu</div>
+    </div>
 </body>
 </html>
+
