@@ -1,0 +1,39 @@
+color pallete mapped to design locations:
+
+dark background
+medium dark background
+medium background
+dark background text
+dark background accent text
+dark background CTA element
+dark background photography filter
+
+light background
+medium light background
+light background text
+light background accent text
+light background CTA element
+dark background photography filter
+
+social links
+
+Facebook Page
+Instagram Business
+Whatsapp Business
+YouTube
+GMB
+Reddit
+LinkedIn
+X
+Pinterest
+
+Headers
+
+h1
+h2
+h3
+
+p
+
+body
+

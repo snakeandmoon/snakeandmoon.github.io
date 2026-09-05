@@ -1,0 +1,75 @@
+Creating the tech stack is part of creating the namespace. I have some other documents about that which should be moved here.
+
+Domain
+Zoho Email
+Google Workspace
+Thunderbird
+Bitwarden
+Github
+Local Dev Environment
+Chrome Profile
+Social Accounts
+    - FB Pages
+    - Instagram Business
+    - Whatsapp Business
+    - Google My Business
+    - Youtube Channel
+    - Pinterest
+    - X
+    - Reddit
+    - Linkedin
+Social Account Manager
+Website
+Payment Processor
+Bank Account
+Debit Card
+Booking
+
+
+
+
+
+
+
+Visual Branding - graphics, palette, photography, videography, typography, brandmarks
+
+Domain -
+    -DNS Settings for hosting & email
+
+Zoho Free Business Email
+    -Set Up Thunderbird
+
+Google Workspace Essentials
+
+    -Youtube
+    -GMB
+    -Analytics
+    -Other Web & Search Tools
+    -SSO
+    -Chrome Profile
+
+Bitwarden
+    -log in to web vault
+    -scroll to share section in lower part of left hand menu
+    -on new page, create organization
+    -also select secrets manager
+    -add the agency as a member
+
+Github
+
+Social Media Accounts - facebook pages, instagram business, whatsapp business, gmb, reddit, linkedin, pinterest, X, youtube
+
+Website - Github Pages
+    -head generator
+    -moodboard
+    -social mockups
+
+Social Media Calendar (Zoho?)
+
+Social Media Management (Zoho?)
+
+Booking?
+
+Payment Processor?
+
+
