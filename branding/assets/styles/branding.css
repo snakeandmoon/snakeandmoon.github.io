@@ -1,9 +1,5 @@
 body {
     background:#333333;
-    background-image: url("../graphics/tile.jpg");
-    background-repeat: repeat;
-    background-size: 300px 300px;
-    background-attachment: fixed;
 }
 
 .blue1 {
@@ -65,7 +61,7 @@ body {
 .hero {
     width:100%;
     display:block;
-    max-height:350px;
+    max-height:250px;
 }
 
 .content {
