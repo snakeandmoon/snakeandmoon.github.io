@@ -13,8 +13,8 @@
 
 /* ---------- NAVBAR ---------- */
 .navbar {
-    background: #1a1a1a;
-    color: #ffffff;
+    background: #222222;
+    color: #EEEBDA
     padding: 0.6rem 1.5rem;
     position: sticky;
     top: 0;
@@ -31,7 +31,7 @@
     align-items: center;
     gap: 0.5rem;
     text-decoration: none;
-    color: #ffffff;
+    color: #EEEBDA;
     font-size: 1.15rem;
     font-weight: 600;
 }
@@ -62,7 +62,7 @@
 }
 
 .nav-links a {
-    color: #e9ecef;
+    color: #EEEBDA;
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 450;

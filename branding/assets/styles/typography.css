@@ -1,3 +1,28 @@
+@import url('https://googleapis.com');
+
 p, h1, h2, h3 {
-    padding:10px 0px;
+    padding:10px;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Changa One', sans-serif;
+    color: #99d6ea;
+}
+
+h2 {
+    color:1a4761;
+}
+
+h3 {
+    color:#EEEBDA;
+    font-style:italic;
+    font-size:1em;
+}
+
+hr {
+    margin:20px;
 }

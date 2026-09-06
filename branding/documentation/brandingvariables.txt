@@ -1,15 +1,15 @@
 color pallete mapped to design locations:
 
-dark background
-medium dark background
-medium background
+dark background #101312 #2E2935 #3C4435
+medium dark background #473C38 #816B73
+medium background #AFAEA6 #A9A78E
 dark background text
 dark background accent text
 dark background CTA element
 dark background photography filter
 
-light background
-medium light background
+light background #FFF8F2 #DFD4C8
+medium light background #CBC2B7
 light background text
 light background accent text
 light background CTA element

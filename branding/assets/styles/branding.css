@@ -1,12 +1,42 @@
 body {
-    background:#666666;
+    background:#333333;
+}
+
+.blue1 {
+    background:#1A4761;
+    color:#DADFA5;
+    padding:2em;
+}
+
+.green {
+    background:#DADFA5;
+    color:#1A4761;
+    padding:2em;
+}
+
+.cream {
+    background:#EEEBDA;
+    color:#1A4761;
+    padding:2em;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../graphics/parallax1.png");
+
+    /* Set a specific height */
+    min-height: 150px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Default (mobile-first approach) */
 .main {
     min-height: 100vh;
-    background: #333333;
-    color:#fafafa;
     width:100%;
     margin:0 auto;
 }
@@ -28,14 +58,14 @@ body {
 .hero {
     width:100%;
     display:block;
+    margin:40px 0px 20px 0px;
 }
 
 .content {
-    padding: 2rem;
 }
 
 .footer {
-    background:#000000;
+    background:#222222;
     padding: 20px;
-    color:#fafafa;
+    color:#EEEBDA;
 }

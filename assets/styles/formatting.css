@@ -1,0 +1,227 @@
+/* ============================================
+ *  SNAKE AND MOON · FORMATTING.CSS
+ *  Layout, box model, display, positioning,
+ *  borders (structural), and responsive behavior.
+ *  CONTAINS ABSOLUTELY NO TYPOGRAPHY.
+ *  ============================================ */
+
+/* ----- LAYOUT CONTAINERS ----- */
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+/* ----- TABLES ----- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0 1.5rem 0;
+}
+
+table tr {
+  border-bottom: 1px solid;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table td,
+table th {
+  padding: 0.6rem 0.75rem 0.6rem 0;
+  vertical-align: top;
+}
+
+table td:first-child,
+table th:first-child {
+  padding-left: 0;
+}
+
+table td:last-child,
+table th:last-child {
+  padding-right: 0;
+}
+
+/* Label column width */
+table td:first-child {
+  width: 32%;
+}
+
+/* Striped rows */
+table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* ----- HORIZONTAL RULES ----- */
+hr {
+  border: 0;
+  border-top: 1px solid;
+  margin: 2.5rem 0;
+  clear: both;
+}
+
+/* ----- BLOCKQUOTES ----- */
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.5rem;
+  border-left: 4px solid;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ----- CALLOUT BOX ----- */
+.callout-box {
+  padding: 1.25rem 1.75rem;
+  border-radius: 6px;
+  margin: 2rem 0;
+  border-left: 6px solid;
+}
+
+/* ----- BUTTONS (structural only) ----- */
+.cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin: 1.5rem 0 1rem 0;
+  align-items: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  border-radius: 40px;
+  text-decoration: none;
+  border: 2px solid;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.cta-button.primary {
+  border-color: var(--primary, #1f3d3a);
+  background: var(--primary, #1f3d3a);
+  color: var(--bg-body, #fafaf8);
+}
+
+.cta-button.primary:hover {
+  border-color: var(--primary-dark, #142b29);
+  background: var(--primary-dark, #142b29);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button.secondary {
+  background: transparent;
+  border-color: var(--border-medium, #b0b5ad);
+  color: var(--primary, #1f3d3a);
+}
+
+.cta-button.secondary:hover {
+  background: var(--bg-subtle, #f0f1ed);
+  border-color: var(--primary, #1f3d3a);
+  transform: translateY(-1px);
+}
+
+.cta-button.tertiary {
+  background: transparent;
+  border-color: transparent;
+  padding: 0.6rem 0.8rem;
+  color: var(--text-secondary, #2c3e3f);
+}
+
+.cta-button.tertiary:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+/* ----- DIVIDER ----- */
+.divider-light {
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 1.5rem 0;
+}
+
+/* ----- RESPONSIVE (mobile) ----- */
+@media (max-width: 640px) {
+  .container {
+    padding: 0.5rem 1rem;
+  }
+
+  table td,
+  table th {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    display: block;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  table td:first-child {
+    width: 100%;
+    padding-bottom: 0.1rem;
+  }
+
+  table td:last-child {
+    padding-bottom: 0.6rem;
+  }
+
+  table tr {
+    display: block;
+    border-bottom: 1px solid;
+    padding: 0.4rem 0;
+  }
+
+  table tr:last-child {
+    border-bottom: none;
+  }
+
+  .cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.6rem;
+  }
+
+  .cta-button {
+    text-align: center;
+    padding: 0.7rem 1.2rem;
+  }
+
+  blockquote {
+    padding: 0.6rem 1rem;
+    margin: 1rem 0;
+  }
+
+  .callout-box {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* ----- PRINT ----- */
+@media print {
+  .cta-button {
+    border: 1px solid #333 !important;
+    background: transparent !important;
+    color: #000 !important;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0;
+  }
+
+  .cta-group {
+    gap: 0.5rem;
+  }
+
+  table tbody tr:nth-child(even) {
+    background: transparent !important;
+  }
+
+  a:not(.cta-button) {
+    color: #000;
+  }
+
+  hr {
+    border-top: 1px solid #999;
+  }
+
+  blockquote {
+    border-left: 3px solid #666;
+  }
+}
