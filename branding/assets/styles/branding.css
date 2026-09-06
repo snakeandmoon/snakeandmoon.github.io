@@ -1,23 +1,30 @@
 body {
     background:#333333;
+    background-image: url("../graphics/tile.jpg");
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    background-attachment: fixed;
 }
 
 .blue1 {
     background:#1A4761;
     color:#DADFA5;
     padding:2em;
+    margin-bottom:2em;
 }
 
 .green {
     background:#DADFA5;
     color:#1A4761;
     padding:2em;
+    margin-bottom:2em;
 }
 
 .cream {
     background:#EEEBDA;
     color:#1A4761;
     padding:2em;
+    margin-bottom:2em;
 }
 
 .parallax1 {
@@ -25,7 +32,7 @@ body {
     background-image: url("../graphics/parallax1.png");
 
     /* Set a specific height */
-    min-height: 150px;
+    min-height: 50px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -58,14 +65,43 @@ body {
 .hero {
     width:100%;
     display:block;
-    margin:40px 0px 20px 0px;
+    max-height:350px;
 }
 
 .content {
+    padding-top:2em;
 }
 
-.footer {
-    background:#222222;
-    padding: 20px;
+.footer2 {
+    background:#444444;
+    padding: 2em;
     color:#EEEBDA;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically (optional) */
+    gap: 10px;
+}
+
+.footer1 {
+    background:#666666;
+    color:#EEEBDA;
+    padding:2em;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically (optional) */
+    gap: 10px;
+}
+
+.footer3 {
+    background:#222222;
+    padding: 2em;
+    color:#EEEBDA;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically (optional) */
+    gap: 10px;
+}
+
+.box {
+    display:inline;
 }
